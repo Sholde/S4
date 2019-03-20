@@ -1,0 +1,16 @@
+cd /home/user
+cd /tmp/
+mkdir projects
+cd projects/
+mkdir doc include src
+cd include/
+touch func.h
+cd ..
+cd src/
+touch main.c func.c
+cd ..
+ls -Rl > contents.txt
+cd ..
+cp -r projects projectsV2
+rm -r projects
+tar -cvf pv2.tar projectsV2
