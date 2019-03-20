@@ -1,0 +1,611 @@
+/home/user:
+total 52
+drwxr-xr-x 13 user users 4096 mars  20 16:53 Bureau
+-rwxr-xr-x  1 user user    71 févr.  9 22:33 contenuRep.c
+drwxr-xr-x  3 user user  4096 oct.   6 19:53 Documents
+drwxr-xr-x  5 user user  4096 mars  16 18:16 eclipse-java-oxygen-workspace
+drwxr-xr-x  2 user user  4096 sept.  4  2017 Images
+drwxr-xr-x  2 user user  4096 oct.   6 16:57 Methodo
+drwxr-xr-x  2 user user  4096 sept.  4  2017 Modèles
+drwxr-xr-x  3 user user  4096 sept.  6  2017 modelio
+drwxr-xr-x  2 user user  4096 sept.  5  2017 Musique
+drwxr-xr-x  2 user user  4096 sept.  4  2017 Public
+drwxr-xr-x  2 user user  4096 mars  17 16:15 Téléchargements
+drwxr-xr-x  2 user user  4096 mars  15 21:46 Test
+drwxr-xr-x  2 user user  4096 sept.  4  2017 Vidéos
+
+/home/user/Bureau:
+total 44
+lrwxrwxrwx 1 root root    19 sept.  4  2017 DOCUMENTS -> /media/sf_DOCUMENTS
+-rw-r--r-- 1 user user   468 févr. 11 19:50 exo6.c
+drwxr-xr-x 5 user user  4096 déc.  28 22:14 info
+drwxr-xr-x 4 user user  4096 mars  13 18:24 JAVA
+drwxrwxr-x 3 user user  4096 sept. 13  2017 __MACOSX
+drwxr-xr-x 2 user user  4096 mars  16 19:02 ProjetAlgo
+drwxr-xr-x 2 user user  4096 mars  19 17:31 ProjetOS
+drwxr-xr-x 3 user user  4096 mars   3 17:07 Projet_S3
+drwxr-xr-x 2 user user  4096 mars  16 13:20 test
+drwxr-xr-x 2 user user  4096 mars  17 17:06 testOS
+drwxr-xr-x 5 user user  4096 mars  16 18:49 Travail
+drwxr-xr-x 3 user users 4096 févr. 27 16:00 uvsq-graphics
+
+/home/user/Bureau/info:
+total 12
+drwxr-xr-x 2 user user 4096 nov.   4 16:51 05_Structure_de_donnees_Tri_Complexite
+drwxrwx--- 2 user user 4096 oct.  17 17:12 IN301_TD5
+drwxr-xr-x 2 user user 4096 oct.  18 22:42 TD3
+
+/home/user/Bureau/info/05_Structure_de_donnees_Tri_Complexite:
+total 28
+-rwxr-xr-x 1 user user 13216 nov.   4 16:51 exo19
+-rw-r--r-- 1 user user  2347 oct.  13 23:27 exo19.c
+-rw-r--r-- 1 user user    52 oct.  13 22:18 Makefile
+-rw-r--r-- 1 user user   177 oct.  13 23:10 mes_types.h
+
+/home/user/Bureau/info/IN301_TD5:
+total 32
+-rwxrwx--- 1 user user 1158 oct.  17 17:12 Makefile
+-rwxrwx--- 1 user user  681 oct.  17 17:12 stat.gplt
+-rwxrwx--- 1 user user  236 oct.  17 17:12 stat.h
+-rwxrwx--- 1 user user 1987 oct.  17 17:12 tabint.c
+-rwxrwx--- 1 user user  436 oct.  17 17:12 tabint.h
+-rwxrwx--- 1 user user 1510 oct.  17 17:12 tri_bulle.c
+-rwxrwx--- 1 user user 1745 oct.  15 09:13 tri_bulle_corr.c
+-rwxrwx--- 1 user user 1036 oct.  17 17:12 tri_fusion.c
+
+/home/user/Bureau/info/TD3:
+total 20
+-rwxr-xr-x 1 user user 8592 oct.  18 22:22 exo1
+-rw-r--r-- 1 user user  903 oct.  18 22:42 exo1.c
+-rw-r--r-- 1 user user   56 oct.  18 19:14 Makefile
+
+/home/user/Bureau/JAVA:
+total 8
+drwxr-xr-x 4 user user 4096 janv. 14 14:28 CPOO - 2018-2019
+drwxr-xr-x 5 user user 4096 mars  13 18:24 TD1
+
+/home/user/Bureau/JAVA/CPOO - 2018-2019:
+total 520
+drwxr-xr-x 2 user user   4096 janv. 14 12:20 figs
+-rw-r--r-- 1 user user 527865 janv. 14 12:20 index.html
+
+/home/user/Bureau/JAVA/CPOO - 2018-2019/figs:
+total 1660
+-rw-r--r-- 1 user user  10744 janv. 14 12:20 abstract_class.png
+-rw-r--r-- 1 user user  49068 janv. 14 12:20 abstract_robot.png
+-rw-r--r-- 1 user user   7723 janv. 14 12:20 apparait-dans.png
+-rw-r--r-- 1 user user   1261 janv. 14 12:20 array.png
+-rw-r--r-- 1 user user   9235 janv. 14 12:20 assocn.png
+-rw-r--r-- 1 user user  19349 janv. 14 12:20 axes.svg
+-rw-r--r-- 1 user user  24473 janv. 14 12:20 bluej-3rdparty.png
+-rw-r--r-- 1 user user   4353 janv. 14 12:20 cercle_et_centre.png
+-rw-r--r-- 1 user user  10544 janv. 14 12:20 chat.png
+-rw-r--r-- 1 user user  14436 janv. 14 12:20 classe_et_type.png
+-rw-r--r-- 1 user user   4171 janv. 14 12:20 classe_point_cercle_abrev.png
+-rw-r--r-- 1 user user   7762 janv. 14 12:20 classe_point_cercle.png
+-rw-r--r-- 1 user user  12887 janv. 14 12:20 collection-hierarchie.svg
+-rw-r--r-- 1 user user  15238 janv. 14 12:20 collections.png
+-rw-r--r-- 1 user user   7689 janv. 14 12:20 deplacable_et_redimensionnable.png
+-rw-r--r-- 1 user user   3750 janv. 14 12:20 deplacable.png
+-rw-r--r-- 1 user user   9911 janv. 14 12:20 description_des_rectangles.png
+-rw-r--r-- 1 user user  23038 janv. 14 12:20 destructeur_transporteur_class.png
+-rw-r--r-- 1 user user   1717 janv. 14 12:20 diag-1d620dd3b33c38f00693d7fa69eae0b8.png
+-rw-r--r-- 1 user user   2111 janv. 14 12:20 diag-ec08285cbd25a750ec2365b9ab9cbbc1.png
+-rw-r--r-- 1 user user   9100 janv. 14 12:20 encryptedstring.png
+-rw-r--r-- 1 user user   8975 janv. 14 12:20 entreprise.png
+-rw-r--r-- 1 user user   4584 janv. 14 12:20 figure_et_cercle.png
+-rw-r--r-- 1 user user   5046 janv. 14 12:20 generic.png
+-rw-r--r-- 1 user user  20173 janv. 14 12:20 heritage_et_interface.png
+-rw-r--r-- 1 user user  15511 janv. 14 12:20 heritage_multiple.png
+-rw-r--r-- 1 user user  10744 janv. 14 12:20 hierarchie_heritage.png
+-rw-r--r-- 1 user user  55183 janv. 14 12:20 ieee_spectrum_index.png
+-rw-r--r-- 1 user user  19141 janv. 14 12:20 input_output.png
+-rw-r--r-- 1 user user  26609 janv. 14 12:20 inputstream-hierarchie.png
+-rw-r--r-- 1 user user  17624 janv. 14 12:20 interface.png
+-rw-r--r-- 1 user user  10560 janv. 14 12:20 io-ins.png
+-rw-r--r-- 1 user user  10741 janv. 14 12:20 io-outs.png
+-rw-r--r-- 1 user user  10126 janv. 14 12:20 java_compil.png
+-rw-r--r-- 1 user user 315765 janv. 14 12:20 javase_platform.png
+-rw-r--r-- 1 user user   5223 janv. 14 12:20 map-hierarchie.svg
+-rw-r--r-- 1 user user   7119 janv. 14 12:20 maps.png
+-rw-r--r-- 1 user user   7602 janv. 14 12:20 membres_de_classe.png
+-rw-r--r-- 1 user user  11521 janv. 14 12:20 moving_circle.png
+-rw-r--r-- 1 user user   8175 janv. 14 12:20 nio-fileiomethods.png
+-rw-r--r-- 1 user user  26836 janv. 14 12:20 objets_java.png
+-rw-r--r-- 1 user user  62602 janv. 14 12:20 objets.png
+-rw-r--r-- 1 user user  23041 janv. 14 12:20 outputstream-hierarchie.png
+-rw-r--r-- 1 user user  29381 janv. 14 12:20 package-diagram.png
+-rw-r--r-- 1 user user  11233 janv. 14 12:20 pile-exception-hierarchie.png
+-rw-r--r-- 1 user user   4718 janv. 14 12:20 points_and_circles.png
+-rw-r--r-- 1 user user  25272 janv. 14 12:20 polym_robot.png
+-rw-r--r-- 1 user user  23358 janv. 14 12:20 pypl_index.png
+-rw-r--r-- 1 user user  23257 janv. 14 12:20 reader-hierarchie.png
+-rw-r--r-- 1 user user  29444 janv. 14 12:20 reader_writer.png
+-rw-r--r-- 1 user user  13617 janv. 14 12:20 rectangle_et_rectangle_plein_2.png
+-rw-r--r-- 1 user user   8769 janv. 14 12:20 rectangle_et_rectangle_plein.png
+-rw-r--r-- 1 user user  15515 janv. 14 12:20 rectangle_et_rectangle_plein_polym.png
+-rw-r--r-- 1 user user   1163 janv. 14 12:20 reference.png
+-rw-r--r-- 1 user user  13242 janv. 14 12:20 robot_class.png
+-rw-r--r-- 1 user user  14268 janv. 14 12:20 robot_seq1.png
+-rw-r--r-- 1 user user  20686 janv. 14 12:20 robot_seq2.png
+-rw-r--r-- 1 user user   1317 janv. 14 12:20 tabref1.png
+-rw-r--r-- 1 user user   1788 janv. 14 12:20 tabref2.png
+-rw-r--r-- 1 user user   1869 janv. 14 12:20 tabref3.png
+-rw-r--r-- 1 user user   2445 janv. 14 12:20 tabref4.png
+-rw-r--r-- 1 user user   2417 janv. 14 12:20 tabref5.png
+-rw-r--r-- 1 user user   2410 janv. 14 12:20 tabref6.png
+-rw-r--r-- 1 user user  14715 janv. 14 12:20 throwable_hier.png
+-rw-r--r-- 1 user user  16135 janv. 14 12:20 throwable.png
+-rw-r--r-- 1 user user 186066 janv. 14 12:20 tiobe_prog_comm_index.png
+-rw-r--r-- 1 user user 145003 janv. 14 12:20 types_dependencies.png
+-rw-r--r-- 1 user user  23813 janv. 14 12:20 writer-hierarchie.png
+
+/home/user/Bureau/JAVA/TD1:
+total 12
+drwxr-xr-x 3 user user 4096 févr. 16 21:41 biblio
+drwxr-xr-x 3 user user 4096 févr. 14 10:45 Entreprise
+drwxr-xr-x 2 user user 4096 févr. 14 11:50 serveurclient
+
+/home/user/Bureau/JAVA/TD1/biblio:
+total 36
+-rw-r--r-- 1 user user 2044 févr. 15 18:24 Biblio.class
+-rw-r--r-- 1 user user  651 févr. 15 18:24 Biblio.ctxt
+-rw-r--r-- 1 user user 1477 févr. 15 18:24 Biblio.java
+drwxr-xr-x 2 user user 4096 févr. 16 21:28 doc
+-rw-r--r-- 1 user user 1755 févr. 15 18:24 Doc.class
+-rw-r--r-- 1 user user  713 févr. 15 18:24 Doc.ctxt
+-rw-r--r-- 1 user user 1412 févr. 15 18:24 Doc.java
+-rw-r--r-- 1 user user  959 févr. 16 21:41 package.bluej
+-rw-r--r-- 1 user user  459 févr. 15 16:39 README.TXT
+
+/home/user/Bureau/JAVA/TD1/biblio/doc:
+total 60
+-rw-r--r-- 1 user user   691 févr. 15 17:11 allclasses-frame.html
+-rw-r--r-- 1 user user   671 févr. 15 17:11 allclasses-noframe.html
+-rw-r--r-- 1 user user   962 févr. 15 17:11 constant-values.html
+-rw-r--r-- 1 user user  5605 févr. 15 17:11 Doc.html
+-rw-r--r-- 1 user user  2802 févr. 15 17:11 index.html
+-rw-r--r-- 1 user user  1354 févr. 15 17:11 logfile.txt
+-rw-r--r-- 1 user user   798 févr. 15 17:11 package-frame.html
+-rw-r--r-- 1 user user     1 févr. 15 17:11 package-list
+-rw-r--r-- 1 user user  1302 févr. 15 17:11 package-summary.html
+-rw-r--r-- 1 user user   827 févr. 15 17:11 script.js
+-rw-r--r-- 1 user user 12842 févr. 15 17:11 stylesheet.css
+
+/home/user/Bureau/JAVA/TD1/Entreprise:
+total 32
+drwxr-xr-x 2 user user 4096 févr.  1 23:33 doc
+-rw-r--r-- 1 user user  741 févr.  1 23:47 Employe.class
+-rw-r--r-- 1 user user  924 févr.  1 23:47 Employe.ctxt
+-rw-r--r-- 1 user user 1056 févr.  1 23:46 Employe.java
+-rw-r--r-- 1 user user  970 févr.  1 23:47 Entreprise.class
+-rw-r--r-- 1 user user  727 févr.  1 23:47 Entreprise.ctxt
+-rw-r--r-- 1 user user  930 févr.  1 23:47 Entreprise.java
+-rw-r--r-- 1 user user 1031 févr. 14 10:48 package.bluej
+
+/home/user/Bureau/JAVA/TD1/Entreprise/doc:
+total 60
+-rw-r--r-- 1 user user   699 févr.  1 23:33 allclasses-frame.html
+-rw-r--r-- 1 user user   679 févr.  1 23:33 allclasses-noframe.html
+-rw-r--r-- 1 user user   962 févr.  1 23:33 constant-values.html
+-rw-r--r-- 1 user user  5655 févr.  1 23:33 Employe.html
+-rw-r--r-- 1 user user  2810 févr.  1 23:33 index.html
+-rw-r--r-- 1 user user  1410 févr.  1 23:33 logfile.txt
+-rw-r--r-- 1 user user   806 févr.  1 23:33 package-frame.html
+-rw-r--r-- 1 user user     1 févr.  1 23:33 package-list
+-rw-r--r-- 1 user user  1353 févr.  1 23:33 package-summary.html
+-rw-r--r-- 1 user user   827 févr.  1 23:33 script.js
+-rw-r--r-- 1 user user 12842 févr.  1 23:33 stylesheet.css
+
+/home/user/Bureau/JAVA/TD1/serveurclient:
+total 24
+-rw-r--r-- 1 user user 329 févr. 14 11:20 Client.ctxt
+-rw-r--r-- 1 user user 621 févr. 14 11:49 Client.java
+-rw-r--r-- 1 user user 871 févr. 16 21:41 package.bluej
+-rw-r--r-- 1 user user 459 févr. 14 11:16 README.TXT
+-rw-r--r-- 1 user user 316 févr. 14 11:24 Serveur.ctxt
+-rw-r--r-- 1 user user 511 févr. 14 11:50 Serveur.java
+
+/home/user/Bureau/__MACOSX:
+total 4
+drwxrwxr-x 3 user user 4096 sept. 13  2017 uvsqgraphics_2017-09-12
+
+/home/user/Bureau/__MACOSX/uvsqgraphics_2017-09-12:
+total 4
+drwxrwxr-x 2 user user 4096 sept. 13  2017 Exemple_compilation
+
+/home/user/Bureau/__MACOSX/uvsqgraphics_2017-09-12/Exemple_compilation:
+total 0
+
+/home/user/Bureau/ProjetAlgo:
+total 1872
+-rw-r--r-- 1 user user    3001 mars  13 22:14 calcul.c
+-rw-r--r-- 1 user user    1474 mars  13 22:14 gestion.c
+-rw-r--r-- 1 user user 1827248 mars  16 13:21 lib
+-rw-r--r-- 1 user user     932 mars  16 12:11 lib.h
+-rwxr-xr-x 1 user user   59264 mars  16 13:21 main
+-rw-r--r-- 1 user user    6937 mars  16 13:18 main.c
+-rw-r--r-- 1 user user     136 mars  13 22:15 Makefile
+
+/home/user/Bureau/ProjetOS:
+total 112
+-rwxr-xr-x 1 user user    72 mars  17 13:50 exec
+-rw-r--r-- 1 user user    28 mars  19 17:30 fichier
+-rw-r--r-- 1 user user  2537 mars  19 17:24 fichier.c
+-rw-r--r-- 1 user user  1537 mars  19 17:12 fichier.h
+-rw-r--r-- 1 user user  2580 mars  19 17:05 main.c
+-rw-r--r-- 1 user user   203 mars  17 16:00 Makefile
+-rw-r--r-- 1 user user  5629 mars  19 16:45 navalmap.c
+-rw-r--r-- 1 user user  4959 mars  18 21:59 navalmap.h
+-rw-r--r-- 1 user user  2320 mars  17 17:11 nm_rect.c
+-rw-r--r-- 1 user user  1192 mars  17 17:10 nm_rect.h
+-rwxr-xr-x 1 user user 31680 mars  18 19:19 prog
+-rw-r--r-- 1 user user  1467 févr. 22 10:08 README.txt
+-rwxr-xr-x 1 user user 22496 mars  19 17:31 Sod
+
+/home/user/Bureau/Projet_S3:
+total 176
+drwxr-xr-x 2 user user  4096 janv.  9 20:27 BOUTON_Nicolas
+-rw-r--r-- 1 user user 82529 janv.  6 21:02 BOUTON_Nicolas.pdf
+-rw-r--r-- 1 user user 88801 janv.  6 21:16 BOUTON_Nicolas.zip
+
+/home/user/Bureau/Projet_S3/BOUTON_Nicolas:
+total 172
+-rwxr-x--- 1 user user  2708 janv.  6 21:09 afficher.c
+-rwxr-x--- 1 user user   629 janv.  6 21:09 afficher.h
+-rw-r--r-- 1 user user 14064 janv.  9 20:21 afficher.o
+-rwxr-x--- 1 user user   375 janv.  6 21:09 A_LIRE.txt
+-rwxr-x--- 1 user user  1121 janv.  6 21:09 constantes.h
+-rw-r--r-- 1 user user    90 janv.  6 21:16 exemple.sudoku
+-rwxr-x--- 1 user user  4076 janv.  6 21:09 gestion_sudoku.c
+-rwxr-x--- 1 user user   899 janv.  6 21:09 gestion_sudoku.h
+-rw-r--r-- 1 user user 15712 janv.  9 20:21 gestion_sudoku.o
+-rwxr-x--- 1 user user  1879 janv.  6 21:09 lire_ecrire.c
+-rwxr-x--- 1 user user   266 janv.  6 21:09 lire_ecrire.h
+-rw-r--r-- 1 user user 10352 janv.  9 20:21 lire_ecrire.o
+-rwxr-x--- 1 user user   981 janv.  6 21:09 Makefile
+-rwxr-xr-x 1 user user 67080 janv.  9 20:27 sudoku
+-rwxr-x--- 1 user user  1904 janv.  9 20:27 sudoku.c
+-rw-r--r-- 1 user user 14800 janv.  9 20:27 sudoku.o
+
+/home/user/Bureau/test:
+total 1872
+-rw-r--r-- 1 user user    3001 mars  13 22:14 calcul.c
+-rw-r--r-- 1 user user    1474 mars  13 22:14 gestion.c
+-rw-r--r-- 1 user user 1827248 mars  16 13:20 lib
+-rw-r--r-- 1 user user     932 mars  16 12:11 lib.h
+-rwxr-xr-x 1 user user   59256 mars  16 13:20 main
+-rw-r--r-- 1 user user    6937 mars  16 13:18 main.c
+-rw-r--r-- 1 user user     136 mars  13 22:15 Makefile
+
+/home/user/Bureau/testOS:
+total 72
+-rw-r--r-- 1 user user    28 mars  17 15:54 fichier
+-rw-r--r-- 1 user user  2191 mars  17 17:06 fichier.c
+-rw-r--r-- 1 user user  1539 mars  17 16:52 fichier.h
+-rw-r--r-- 1 user user 11840 mars  17 17:06 fichier.o
+-rw-r--r-- 1 user user   969 mars  17 16:56 main.c
+-rw-r--r-- 1 user user   203 mars  17 16:00 Makefile
+-rw-r--r-- 1 user user  3324 mars  17 16:38 navalmap.c
+-rw-r--r-- 1 user user  3760 mars  17 16:38 navalmap.h
+-rw-r--r-- 1 user user 12096 mars  17 16:16 navalmap.o
+-rw-r--r-- 1 user user  2320 févr. 20 14:16 nm_rect.c
+-rw-r--r-- 1 user user  1190 févr. 20 15:05 nm_rect.h
+-rw-r--r-- 1 user user  8056 mars  17 17:06 nm_rect.o
+-rw-r--r-- 1 user user  1468 mars  11 09:49 README.txt
+
+/home/user/Bureau/Travail:
+total 12
+drwxr-xr-x 5 user user 4096 mars  18 18:05 ProjetAlgo
+drwxr-xr-x 6 user user 4096 mars  16 18:52 ProjetJava
+drwxr-xr-x 5 user user 4096 mars  13 18:21 S4
+
+/home/user/Bureau/Travail/ProjetAlgo:
+total 2260
+-rw-r--r-- 1 user user 2298077 mars  14 22:03 enonce.pdf
+drwxr-xr-x 2 user user    4096 mars  18 18:05 rapport
+-rw-r--r-- 1 user user    1084 mars  18 18:05 README.md
+drwxr-xr-x 2 user user    4096 mars  18 18:12 src
+
+/home/user/Bureau/Travail/ProjetAlgo/rapport:
+total 4
+-rw-r--r-- 1 user user 19 mars  18 18:05 rapport.txt
+
+/home/user/Bureau/Travail/ProjetAlgo/src:
+total 72
+-rw-r--r-- 1 user user   775 mars  18 18:12 affiche.c
+-rw-r--r-- 1 user user   373 mars  18 18:05 affiche.h
+-rw-r--r-- 1 user user   466 mars  18 18:05 const.h
+-rw-r--r-- 1 user user   473 mars  18 18:05 content.txt
+-rwxr-xr-x 1 user user 29736 mars  18 18:12 graph
+-rw-r--r-- 1 user user  5570 mars  18 18:05 graph.c
+-rw-r--r-- 1 user user  3061 mars  18 18:05 graph.h
+-rwxr-xr-x 1 user user    65 mars  18 18:05 install.sh
+-rw-r--r-- 1 user user   364 mars  18 18:05 main.c
+-rw-r--r-- 1 user user    59 mars  18 18:05 Makefile
+
+/home/user/Bureau/Travail/ProjetJava:
+total 8
+drwxr-xr-x 2 user user 4096 mars  16 18:49 bin
+drwxr-xr-x 2 user user 4096 mars  16 18:49 src
+
+/home/user/Bureau/Travail/ProjetJava/bin:
+total 12
+-rw-r--r-- 1 user user  677 mars  16 18:42 Main.class
+-rw-r--r-- 1 user user  507 mars  16 18:18 Pion.class
+-rw-r--r-- 1 user user 1042 mars  16 18:40 Terrain.class
+
+/home/user/Bureau/Travail/ProjetJava/src:
+total 12
+-rw-r--r-- 1 user user 173 mars  16 18:42 Main.java
+-rw-r--r-- 1 user user 270 mars  16 18:18 Pion.java
+-rw-r--r-- 1 user user 322 mars  16 18:40 Terrain.java
+
+/home/user/Bureau/Travail/S4:
+total 8
+drwxr-xr-x 3 user user 4096 mars  20 17:00 Algo
+drwxr-xr-x 6 user user 4096 mars  20 16:53 OS
+
+/home/user/Bureau/Travail/S4/Algo:
+total 8
+-rw-r--r-- 1 user user    5 mars  20 17:00 README.md
+drwxr-xr-x 2 user user 4096 mars  20 16:59 TD5
+
+/home/user/Bureau/Travail/S4/Algo/TD5:
+total 76
+-rw-r--r-- 1 user user 49400 mars  11 16:20 canevas_graphe
+-rw-r--r-- 1 user user  4259 mars  11 16:20 canevas_graphe.c
+-rw-r--r-- 1 user user    93 mars  11 16:21 graphAlea.dot
+-rw-r--r-- 1 user user    93 mars  11 16:21 graphArbre.dot
+-rw-r--r-- 1 user user    99 mars  11 16:21 graphComplet.dot
+-rw-r--r-- 1 user user    51 mars  11 16:21 graphCycle.dot
+
+/home/user/Bureau/Travail/S4/OS:
+total 16
+drwxr-xr-x 2 user user 4096 mars  20 16:56 TD1
+drwxr-xr-x 2 user user 4096 mars  20 16:55 TD2
+drwxr-xr-x 3 user user 4096 mars  20 16:55 TD3
+drwxr-xr-x 2 user user 4096 mars  20 18:04 TD4
+
+/home/user/Bureau/Travail/S4/OS/TD1:
+total 4
+-rw-r--r-- 1 user user 235 févr.  6 21:37 script
+
+/home/user/Bureau/Travail/S4/OS/TD2:
+total 200
+-rw-r--r-- 1 user user 59872 févr. 13 12:06 a.out
+-rw-r--r-- 1 user user  3520 févr. 20 12:44 libsef.a
+-rw-r--r-- 1 user user 17808 févr. 20 12:04 main
+-rw-r--r-- 1 user user  4884 févr. 20 12:03 main.c
+-rw-r--r-- 1 user user 17408 févr. 20 12:44 main-opt
+-rw-r--r-- 1 user user  1416 févr. 20 12:30 main-opt.c
+-rw-r--r-- 1 user user     6 févr. 13 12:15 salut
+-rw-r--r-- 1 user user  1690 févr. 20 12:44 se_fichier.c
+-rw-r--r-- 1 user user  2815 févr. 20 12:16 se_fichier.h
+-rw-r--r-- 1 user user  3200 févr. 20 12:44 se_fichier.o
+-rw-r--r-- 1 user user 59824 févr. 13 12:15 test
+-rw-r--r-- 1 user user    22 févr. 13 12:29 test1.txt
+-rw-r--r-- 1 user user     0 févr. 13 12:29 test2.txt
+-rw-r--r-- 1 user user   206 févr. 13 12:05 test.c
+
+/home/user/Bureau/Travail/S4/OS/TD3:
+total 76
+-rw-r--r-- 1 user user 12432 févr. 27 10:51 exo1
+-rw-r--r-- 1 user user  1207 févr. 27 10:51 exo1.c
+-rw-r--r-- 1 user user 44704 févr. 27 12:24 exo2
+-rw-r--r-- 1 user user   581 févr. 27 12:41 exo2.c
+-rw-r--r-- 1 user user     7 févr. 27 09:49 f.c
+drwxr-xr-x 2 user user  4096 mars  20 16:55 k
+
+/home/user/Bureau/Travail/S4/OS/TD3/k:
+total 0
+-rw-r--r-- 1 user user 0 févr. 27 12:04 j
+
+/home/user/Bureau/Travail/S4/OS/TD4:
+total 416
+-rwxr-xr-x 1 user user 74016 mars  20 18:04 exo1
+-rw-r--r-- 1 user user   708 mars  13 11:23 exo1.c
+-rwxr-xr-x 1 user user 77456 mars  20 18:04 exo2
+-rw-r--r-- 1 user user   433 mars  19 17:57 exo2.c
+-rwxr-xr-x 1 user user 73544 mars  20 18:04 exo3
+-rw-r--r-- 1 user user  1095 mars  20 12:47 exo3.c
+-rwxr-xr-x 1 user user 74520 mars  20 18:04 exo4
+-rw-r--r-- 1 user user   467 mars  20 17:05 #exo4.c#
+-rw-r--r-- 1 user user   495 mars  20 17:49 exo4.c
+-rwxr-xr-x 1 user user 73000 mars  20 18:04 exo5
+-rw-r--r-- 1 user user   523 mars  20 17:52 exo5.c
+-rw-r--r-- 1 user user   305 mars  20 17:59 Makefile
+-rw-r--r-- 1 user user 16384 mars  20 18:05 poub.txt
+
+/home/user/Bureau/uvsq-graphics:
+total 1624
+-rwxr-xr-x 1 user user       0 sept. 16  2018 aleamap
+-rw-r--r-- 1 user user     434 sept. 16  2018 aleamap.c
+-rw-r--r-- 1 user user       8 nov.   5  2017 BOUTON_NICOLAS.aux
+-rw-r--r-- 1 user user   18362 nov.   5  2017 BOUTON_NICOLAS.log
+-rw-r--r-- 1 user user    5073 nov.   5  2017 BOUTON_NICOLAS.tex
+-rwxr-xr-x 1 user user   29472 déc.  15 16:25 Démineur
+-rwxr-xr-x 1 user user   33576 sept. 16  2018 Démineur2
+-rw-r--r-- 1 user user    5344 oct.  13  2017 Démineur2.c
+-rw-r--r-- 1 user user    2819 oct.  11  2017 Démineur.c
+-rwxr-xr-x 1 user user   29424 oct.  19  2017 demo1
+-rwxr-xr-x 1 user users    433 oct.  19  2017 demo1.c
+-rwxr-xr-x 1 user user   37984 sept. 30  2017 demo2
+-rwxr-xr-x 1 user users  15609 sept.  4  2017 demo2.c
+-rwxr-xr-x 1 user users   4756 sept.  4  2017 demo3.c
+-rwxr-xr-x 1 user users 240962 sept.  4  2017 doc_uvsqgraphics.pdf
+-rwxr-xr-x 1 user user   29416 sept. 26  2017 exo1
+-rw-r--r-- 1 user users    143 oct.  10  2017 exo1.c
+-rwxr-xr-x 1 user user   29728 mars  15  2018 exo22
+-rw-r--r-- 1 user user    1728 mars  15  2018 exo22.c
+-rwxr-xr-x 1 user user   33856 mars  15  2018 exo23
+-rw-r--r-- 1 user user    2569 mars  15  2018 exo23.c
+-rwxr-xr-x 1 user user   33880 mars  15  2018 exo26
+-rw-r--r-- 1 user user    2994 mars  15  2018 exo26.c
+-rwxr-xr-x 1 user user   29424 oct.  10  2017 exo34
+-rw-r--r-- 1 user user     804 oct.  10  2017 exo34.c
+-rwxr-xr-x 1 user user   29496 nov.   6  2017 exo39
+-rw-r--r-- 1 user user     489 nov.   6  2017 exo39.c
+-rwxr-xr-x 1 user user   29456 déc.  10  2017 exo49
+-rw-r--r-- 1 user user    1249 déc.  10  2017 exo49.c
+-rwxr-xr-x 1 user user   33776 mars  29  2018 exo51
+-rw-r--r-- 1 user user    1599 mars  29  2018 exo51.c
+-rwxr-xr-x 1 user user   38272 mars  29  2018 exo5_2
+-rw-r--r-- 1 user user   11567 mars  29  2018 exo5_2.c
+-rw-r--r-- 1 user user   10062 mars  29  2018 exo52.c
+-rwxr-xr-x 1 user user   29528 févr.  8  2018 exo8
+-rw-r--r-- 1 user user     882 févr.  8  2018 exo8.c
+-rwxr-xr-x 1 user user   33768 févr. 10  2018 exoNime
+-rw-r--r-- 1 user user    1983 févr. 10  2018 exoNime.c
+-rw-r--r-- 1 user user     322 oct.   3 22:02 genere.c
+-rwxr-xr-x 1 user user   33520 oct.  17  2017 morpion
+-rw-r--r-- 1 user user    6955 oct.  17  2017 morpion.c
+-rwxr-xr-x 1 user user   29424 oct.  13  2017 Projet
+-rw-r--r-- 1 user user    1563 oct.  13  2017 Projet.c
+-rwxr-xr-x 1 user user   34040 avril 30  2018 Serpent_Manger
+-rw-r--r-- 1 user user    7308 avril 30  2018 Serpent_Manger.c
+-rwxr-xr-x 1 user user   29424 oct.  13  2017 teleport
+-rw-r--r-- 1 user user     504 oct.  13  2017 teleport.c
+-rwxr-xr-x 1 user user    8528 avril  6  2018 testCC2
+-rw-r--r-- 1 user user     151 avril  6  2018 testCC2.c
+-rwxr-xr-x 1 user user   29424 mai    4  2018 testchar
+-rw-r--r-- 1 user user     110 mai    4  2018 testchar.c
+-rwxr-xr-x 1 user user    8424 mai    4  2018 testsigned
+-rw-r--r-- 1 user user     156 mai    4  2018 testsigned.c
+-rwxr-xr-x 1 user user   29424 oct.  19  2017 theproject
+-rw-r--r-- 1 user user    1073 oct.  19  2017 theproject.c
+-rwxr-xr-x 1 user user   29424 sept. 26  2017 trait
+-rw-r--r-- 1 user user     505 sept. 26  2017 trait.c
+drwxrwx--- 3 user user    4096 déc.  17 15:33 uvsqgraphics_2017-09-12
+-rw-r--r-- 1 user user  428759 déc.  16 21:30 uvsqgraphics_2017-09-12.zip
+
+/home/user/Bureau/uvsq-graphics/uvsqgraphics_2017-09-12:
+total 640
+-rwxrwx--- 1 user user   5861 janv. 11  2017 couleur.h
+-rwxrwx--- 1 user user   1331 janv. 11  2017 demo1.c
+-rwxrwx--- 1 user user  15609 janv. 11  2017 demo2.c
+-rwxrwx--- 1 user user   4756 janv. 11  2017 demo3.c
+-rwxrwx--- 1 user user 327178 janv. 11  2017 doc_uvsqgraphics.pdf
+-rwxrwx--- 1 user user  17575 janv. 11  2017 doc_uvsqgraphics.tex
+drwxrwx--- 2 user user   4096 janv. 11  2017 Exemple_compilation
+-rwxrwx--- 1 user user    111 janv. 11  2017 filetypes.c
+-rwxrwx--- 1 user user  28678 janv. 11  2017 graphics.c
+-rwxrwx--- 1 user user   9808 janv. 11  2017 graphics.h
+-rw-r--r-- 1 user user  29640 déc.  17 15:33 graphics.o
+-rwxrwx--- 1 user user   2586 janv. 11  2017 Makefile
+-rwxrwx--- 1 user user    449 janv. 11  2017 makeuvsq.sh
+-rwxrwx--- 1 user user   1166 janv. 11  2017 ui_toolbar.xml
+-rwxrwx--- 1 user user 171792 janv. 11  2017 verdana.ttf
+
+/home/user/Bureau/uvsq-graphics/uvsqgraphics_2017-09-12/Exemple_compilation:
+total 16
+-rwxrwx--- 1 user user 680 janv. 11  2017 affiche.c
+-rwxrwx--- 1 user user  74 janv. 11  2017 affiche.h
+-rwxrwx--- 1 user user 340 janv. 11  2017 Makefile
+-rwxrwx--- 1 user user 151 janv. 11  2017 principal.c
+
+/home/user/Documents:
+total 4
+drwxr-xr-x 8 user user 4096 sept.  5  2017 MuseScore2
+
+/home/user/Documents/MuseScore2:
+total 24
+drwxr-xr-x 2 user user 4096 sept.  5  2017 Images
+drwxr-xr-x 2 user user 4096 sept.  5  2017 Modèles
+drwxr-xr-x 2 user user 4096 sept.  5  2017 Partitions
+drwxr-xr-x 2 user user 4096 sept.  5  2017 Plugins
+drwxr-xr-x 2 user user 4096 sept.  5  2017 Soundfonts
+drwxr-xr-x 2 user user 4096 sept.  5  2017 Styles
+
+/home/user/Documents/MuseScore2/Images:
+total 0
+
+/home/user/Documents/MuseScore2/Modèles:
+total 0
+
+/home/user/Documents/MuseScore2/Partitions:
+total 0
+
+/home/user/Documents/MuseScore2/Plugins:
+total 0
+
+/home/user/Documents/MuseScore2/Soundfonts:
+total 0
+
+/home/user/Documents/MuseScore2/Styles:
+total 0
+
+/home/user/eclipse-java-oxygen-workspace:
+total 4
+drwxr-xr-x 5 user user 4096 mars  16 18:13 ProjetJava
+
+/home/user/eclipse-java-oxygen-workspace/ProjetJava:
+total 8
+drwxr-xr-x 2 user user 4096 mars  16 18:33 bin
+drwxr-xr-x 2 user user 4096 mars  16 18:33 src
+
+/home/user/eclipse-java-oxygen-workspace/ProjetJava/bin:
+total 12
+-rw-r--r-- 1 user user  677 mars  16 18:42 Main.class
+-rw-r--r-- 1 user user  507 mars  16 18:18 Pion.class
+-rw-r--r-- 1 user user 1042 mars  16 18:40 Terrain.class
+
+/home/user/eclipse-java-oxygen-workspace/ProjetJava/src:
+total 12
+-rw-r--r-- 1 user user 173 mars  16 18:42 Main.java
+-rw-r--r-- 1 user user 270 mars  16 18:18 Pion.java
+-rw-r--r-- 1 user user 322 mars  16 18:40 Terrain.java
+
+/home/user/Images:
+total 0
+
+/home/user/Methodo:
+total 56
+-rw-r--r-- 1 user user 6164 déc.   5  2017 camenbert
+-rw-r--r-- 1 user user 5339 déc.   4  2017 courbe x y
+-rw-r--r-- 1 user user 5582 déc.   4  2017 nuage z w
+-rw-r--r-- 1 user user 7519 nov.  29  2017 rougebleu
+-rw-r--r-- 1 user user 5581 nov.  29  2017 u et x
+-rw-r--r-- 1 user user 4775 déc.   4  2017 x
+-rw-r--r-- 1 user user 4784 déc.   4  2017 y-x
+
+/home/user/Modèles:
+total 0
+
+/home/user/modelio:
+total 4
+drwxr-xr-x 2 user user 4096 sept.  6  2017 workspace
+
+/home/user/modelio/workspace:
+total 0
+
+/home/user/Musique:
+total 2568
+-rwxrwx--- 1 user user 2627082 avril 18  2013 gameofthrone.mp3
+
+/home/user/Public:
+total 0
+
+/home/user/Téléchargements:
+total 1176
+-rw-r--r-- 1 user user  88801 janv.  6 21:24 BOUTON_Nicolas.zip
+-rw-r--r-- 1 user user   2560 févr. 10 15:30 code-td1.tar
+-rw-r--r-- 1 user user   4994 nov.   3 19:03 control.zip
+-rw-r--r-- 1 user user   1586 févr.  1 23:32 Entreprise-bluej.zip
+-rw-r--r-- 1 user user    584 févr. 27 16:29 git_operations
+-rw-r--r-- 1 user user 359922 oct.   6 19:27 IN301_poly_td_2018-2019.pdf
+-rw-r--r-- 1 user user   5321 nov.   4 16:55 IN301_TD5.zip
+-rw-r--r-- 1 user user 180533 nov.  17 13:02 Projet Sudoku 2018.pdf
+-rw-r--r-- 1 user user 117625 oct.  18 18:18 sujet.pdf
+-rw-r--r-- 1 user user 102109 févr.  9 15:51 td1 (1).pdf
+-rw-r--r-- 1 user user  49995 nov.  19 21:46 td_1-20181117T204341Z-001.zip
+-rw-r--r-- 1 user user 102109 févr.  1 22:47 td1.pdf
+-rw-r--r-- 1 user user 113637 févr. 11 19:55 td2.pdf
+
+/home/user/Test:
+total 24
+-rwxr-xr-x 1 user user 19328 janv.  7 17:12 test
+-rw-r--r-- 1 user user   270 janv.  7 17:12 test.c
+
+/home/user/Vidéos:
+total 0

@@ -21,7 +21,7 @@ void petit_1( int m, int n) {
 		wait(&b);
 		a += WEXITSTATUS(b);
 	}
-	printf("pere : %d\n", a);
+	printf("dad created %d child\n", a);
 }
 
 void petit_2 ( int m, int n ) {
@@ -43,8 +43,8 @@ void petit_2 ( int m, int n ) {
 				wait(&b);
 				a += WEXITSTATUS(b);
 			}
-			printf("fils : %d\n", a);
-			exit(a);
+			printf("child created %d child\n", a);
+			exit(1);
 		}
 	}
 	a = 0;
@@ -53,29 +53,37 @@ void petit_2 ( int m, int n ) {
 		wait(&b);
 		a += WEXITSTATUS(b);
 	}
-	printf("pere : %d\n", a);
+	printf("dad created %d child\n", a);
 }
 
-void petit_3 ( int m, int n) {
-	int j;
+int petit_3 ( int m, int n) {
+	int j, v, k = 0;
 	for(j = 0; j < n; j++)
 	{
-		if(!fork())
-		{
-			printf("mon pid : %d\n", getpid());
-			exit(0);
-		}
+		v = fork();
 	}
-	exit(0);
+	if(!v)
+	{
+		exit(1);
+	}
+	
+	for(v = 0, j = 0; j < n; j++)
+	{
+		wait(&k);
+		v += k;
+	}
+	printf(" nb = %d\n", v);
+	exit(v);
 }
 
 int main () {
 	
+	int m = 2, n = 4;
 	printf("\nPetit 1 :\n");
-	petit_1( 2, 4);
+	petit_1( m, n);
 	printf("\nPetit 2 :\n");
-	petit_2( 2, 4);
+	petit_2( m, n);
 	printf("\nPetit 3 :\n");
-	//petit_3( 2, 4);
+	m = petit_3( m, n);
 	return 0;
 }

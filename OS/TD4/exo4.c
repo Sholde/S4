@@ -9,19 +9,19 @@
 
 int main (int argc, char** argv) {
 	
-	struct tms deb, fin;
-	int d, f, res = 0;
+	struct tms time;
+	long deb, fin, res;
+	deb = times(NULL);
 	if(!fork())
 	{
-		d = times(&deb);
-		system("ls -R -l /bin > poub.txt");
-		f = times(&fin);
-		res = f - d;
-		exit(res);
+		system("ls -R -l /home/user > poub.txt");
+		sleep(2);
+		exit(0);
 	}
-	
-	wait(&res);
-	if(WIFEXITED(res))
-		printf("%d sec\n", WEXITSTATUS(res));
+
+	wait(NULL);
+	fin = times(&time);
+	res = fin - deb;
+	printf("Temps processus fils : %ld ** \n", res/sysconf(_SC_CLK_TCK));
 	return 0;
 }
