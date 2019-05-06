@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Client
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Client\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=x
+comment1.target=Client(java.lang.String)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Client\n
+numComments=2

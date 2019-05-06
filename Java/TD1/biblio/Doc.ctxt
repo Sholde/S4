@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Doc
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Doc\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=titre\ nom\ annee
+comment1.target=Doc(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Doc\n
+comment2.params=d
+comment2.target=void\ ajouter(Doc)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=java.lang.String\ getTitle()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=
+comment6.target=java.util.List\ getListe()
+comment7.params=cited
+comment7.target=boolean\ cite(Doc)
+numComments=8
