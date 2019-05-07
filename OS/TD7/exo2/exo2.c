@@ -41,6 +41,7 @@ int main (int argc, char** argv) {
 			printf("wait : %d\n", timeWait);
 			
 			sleep( timeWait );
+			printf("end of sleeping \n");
 			
 			// Barrier
 			write(pipefd[number][1], NULL, sizeof(int) );
@@ -51,6 +52,8 @@ int main (int argc, char** argv) {
 			return 0;
 		}
 	}
+	
+	printf("begin to read\n");
 	
 	for(int i = 0; i < number; i++)
 	{
