@@ -1,12 +1,14 @@
 OPTI = -Ofast
+WAR = -g3 -Wall
+THREAD = -lpthread
 
 all: exo1 exo2 exo3
 
 exo1:
-	gcc -o reduction reduc.c -lpthread -g3 -Wall ${OPTI}
+	gcc -o reduction reduc.c ${THREAD} ${WAR} ${OPTI}
 	
 exo2:
-	gcc -o exo2.exe exo2.c -lpthread -g3 -Wall ${OPTI}
+	gcc -o $@.exe $@.c ${THREAD} ${WAR} ${OPTI}
 	
 exo3:
-	gcc -o exo3.exe exo3.c -lpthread -g3 -Wall ${OPTI}
+	gcc -o $@.exe $@.c ${THREAD} ${WAR} ${OPTI}

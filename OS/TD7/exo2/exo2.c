@@ -33,8 +33,9 @@ int main (int argc, char** argv) {
 		pid[i] = fork();
 		if( !pid[i] )
 		{
-			printf("pid : %d\n", getpid());
-			srand( getpid() );
+			int myId = getpid();
+			printf("pid : %d\n", myId);
+			srand( myId );
 			
 			int timeWait = rand() % 10 + 1 ;
 			printf("wait : %d\n", timeWait);
@@ -42,24 +43,23 @@ int main (int argc, char** argv) {
 			sleep( timeWait );
 			
 			// Barrier
-			int myId = getpid();
-			write(pipefd[0][1], NULL, sizeof(int) );
+			write(pipefd[number][1], NULL, sizeof(int) );
 			
-			read(pipefd[i+1][0], NULL, sizeof(int) );
+			read(pipefd[i][0], NULL, sizeof(int) );
 			
 			printf("%d\n", i);
 			return 0;
 		}
 	}
 	
-	for(int i = 1; i < number+1; i++)
+	for(int i = 0; i < number; i++)
 	{
-		read(pipefd[0][0], NULL, sizeof(int) );
+		read(pipefd[number][0], NULL, sizeof(int) );
 	}
 	
 	printf("dad has finished to read\n");
 	
-	for(int i = 1; i < number+1; i++)
+	for(int i = 0; i < number; i++)
 	{
 		write(pipefd[i][1], NULL, sizeof(int) );
 	}

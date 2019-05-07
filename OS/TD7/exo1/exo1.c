@@ -6,16 +6,19 @@
 
 #include <stdio.h>
 
+#define succes 0
+#define error_fic 1
+
 int main (int argc, char** argv) {
 	
 	pid_t pid;
 	char buf[16];
 	int pipefd;
 	
-	if( mkfifo("fic", 0600) == -1 )
+	if( mkfifo("fic", O_CREAT) == -1 )
 	{
-		printf("fifo\n");
-		return 1;
+		printf("error : mkfifo\n");
+		return error_fic;
 	}
 	
 	pid = fork();
@@ -25,17 +28,20 @@ int main (int argc, char** argv) {
 		pipefd = open("fic", O_WRONLY);
 		write(pipefd, "Hello world!", 16);
 		close( pipefd );
-		return 0;
+		return succes;
 	}
-	wait(&pid);
-	
-	pipefd = open("fic", O_RDONLY);
-	read(pipefd, buf, 16);
-	close( pipefd );
-	
-	printf("%s\n", buf);
-	
-	unlink("fic");
-	
-	return 0;
+	else 
+	{
+		wait(&pid);
+		
+		pipefd = open("fic", O_RDONLY);
+		read(pipefd, buf, 16);
+		close( pipefd );
+		
+		printf("%s\n", buf);
+		
+		unlink("fic");
+		
+		return succes;
+	}
 }

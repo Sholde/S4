@@ -2,16 +2,16 @@ OPTI = -Ofast
 WAR = -g3 -Wall
 THREAD = -lpthread
 
-all: exo2.exe clean
+all: exo2 clean
 
-exo2.exe: exo2.o
-	@gcc -o $@ $^ ${THREAD} ${WAR} ${OPTI}
-	@echo compilation: $@
+exo2: exo2.o
+	@gcc -o $@.exe $^ ${THREAD} ${WAR} ${OPTI}
+	@echo create: $@.exe
 
 exo2.o: exo2.c
 	@gcc -c exo2.c ${THREAD} ${WAR} ${OPTI}
-	@echo compilation: $@
+	@echo create: $@
 
 clean:
-	@echo supression  : *.o
+	@echo suppr : *.o
 	@rm *.o

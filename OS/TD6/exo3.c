@@ -13,8 +13,8 @@ typedef struct art{
 	int* fin;					//< id du destinateur
 	char* found;					//< indique si le detinataire a recu le message
 	
-	struct art* left;				//< voisin de gauche
-	struct art* right;				//< voisin de droite
+	struct art* left;			//< voisin de gauche
+	struct art* right;			//< voisin de droite
 	
 	pthread_mutex_t* m;			//< mutex
 	pthread_cond_t* c;			//< cond
@@ -32,10 +32,8 @@ void barrier (arg_t* A) {
 	}
 	else
 	{
-		for (int i = 0; i < *(A->nb_exec) - 1; i++)
-		{
-			pthread_cond_signal (A->c);
-		}
+		pthread_cond_broadcast( A->c );
+		
 		*A->nb_exec = 0;
 	}
 	pthread_mutex_unlock (A->m);
@@ -49,13 +47,23 @@ void initThread (arg_t* A) {
 	
 	if(*A->nb_exec == 1)
 	{
-		srand( time(NULL) );
+		srand( A->id );
 		A->entier = rand() % 100 + 1;
 		*A->deb = A->id;
+		
+		pthread_cond_wait (A->c, A->m);
 	}
-	if(*A->nb_exec == A->max)
+	else if(*A->nb_exec == A->max)
 	{
 		*A->fin = A->id;
+		*A->nb_exec = 0;
+		
+		pthread_cond_broadcast( A->c );
+		*A->nb_exec = 0;
+	}
+	else
+	{
+		pthread_cond_wait (A->c, A->m);
 	}
 	
 	pthread_mutex_unlock (A->m);
@@ -79,18 +87,26 @@ void verifEnd (arg_t* A) {
 void sendInt (arg_t* A) {
 
 	pthread_mutex_lock (A->m);
-
+	
 	if(A->entier != 0)
 	{
-		if(A->id > *A->fin)
+		if( A->id == *A->fin )
+		{
+			*A->found = 1;
+		}
+		else if(A->id > *A->fin)
 		{
 			A->left->entier = A->entier;
 			A->entier = 0;
+			
+			printf ("%d -> %d\n", A->id, A->left->id);
 		}
 		else
 		{
 			A->right->entier = A->entier;
 			A->entier = 0;
+			
+			printf ("%d -> %d\n", A->id, A->right->id);
 		}
 	}
 	
@@ -105,18 +121,31 @@ void* func (void* arg) {
 	initThread (A);
 	barrier (A);
 	
-	verifEnd (A);
-	barrier (A);
+	int found = 0;
 	
-	//~ sendInt (A);
-	//~ barrier (A);
+	while( !found )
+	{
+		sendInt (A);
+		barrier (A);
+		
+		pthread_mutex_lock (A->m);
+		found = *A->found;
+		pthread_mutex_unlock (A->m);
+		barrier (A);
+	}
 	
 	return NULL;
 }
 
 // Main
-int main () {
-	int n = 10;
+int main (int argc, char** argv) {
+	if( argc != 2 ) return 0;
+	int n = atoi( argv[1] );
+	
+	if( n < 2 )
+	{
+		return 0;
+	}
 	arg_t A [n];
 	int nb_exec = 0, deb = 0, fin = n-1;
 	char found = 0;
@@ -161,6 +190,11 @@ int main () {
 	printf ("sender   : %d\n", *A [0] .deb);
 	printf ("adressee : %d\n",*A [0] .fin);
 	printf ("integer  : %d\n", A [*A [0] .fin] .entier);
+	
+	if( *A->found )
+	{
+		printf("adressee get the message\n");
+	}	
 	
 	pthread_cond_destroy (&c);
 	pthread_mutex_destroy (&m);
